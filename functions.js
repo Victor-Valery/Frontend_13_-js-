@@ -89,8 +89,78 @@
 // }
 
 // div(12, 4)
+// ------------------
+
+// function div2(num1,num2){
+//     return num2 ? num1 / num2 : 'Zero Division Error'
+//     //      'num2' nin true yada false oldugu sorgulanir. true ise num1/num2 islemi yapilir, false ise  'Zero Division Error' yazar
+// }
+
+// console.log(div2(18,0));
 
 // ************************
+
+// function sum(a, b, ...args) {
+//     // console.log(arguments);
+//     let total = 0;
+//     for (let i = 0; i < arguments.length; i++) {
+//         total += arguments[i];
+//     }
+//     return total;
+// }
+
+// console.log(sum(1, 2, 3, 4, 5));
+
+// ************************
+
+// function sum2(a,b, ...args){
+//     console.log(args);
+//     console.log(arguments);
+//     return a + b
+// }
+
+// console.log(sum2(1,2,3,4,5));
+
+// ************************
+
+// function sayHi1(){
+//     return 'Hello from sayhi1'
+// }
+// console.log(sayHi1());
+
+// const sayHi2 = function greet(){
+//     return 'Hello from sayhi2'
+// }
+
+// console.log(sayHi2());
+
+// ************************
+
+// const pascalNumber = function (n){
+//     return (n*(n+1)/2)
+// }
+   
+// console.log(pascalNumber(4));
+
+// ************************
+
+// const pascalNumber = function total (n){
+//     if(n===1) return 1;
+//     return n + total(n-1)
+// }
+   
+// console.log(pascalNumber(3));
+
+// ************************
+
+//Immediaetly invoked function expression
+
+// let result = (function triangle(num){
+//     if(num === 1) return 1;
+//     return num+ triangle(num-1);
+//     })(3);
+// console.log(result);
+
 
 
 
